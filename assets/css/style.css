@@ -1,0 +1,20 @@
+.banner {
+    background-color: mediumslateblue;
+    color: whitesmoke;
+    margin-top: 5%;
+    text-align: center;
+    padding: 2vh 0;
+}
+
+/*style for snow globe image*/
+#snowglobe {
+    height: 20vh;
+    width: 20vw;
+    border-radius: 55%;
+}
+
+#pando {
+    color: mediumpurple;
+    font-size: medium;
+    font-family: cursive;
+}
