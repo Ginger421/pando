@@ -2,13 +2,20 @@
     background-color: azure;
     position: fixed;
     top: 0;
-    width: 100%;    
+    width: 100%;   
+    text-align: right; 
 }
 
-.navlist {
+.navbar li {
     list-style: none;
+    flex-wrap: wrap;
     display: inline-flex;
-    justify-items: flex-end;
+    padding: 0vh 2vh 0vw 2vw; 
+}
+
+.navbar a {
+    text-decoration: none; 
+    color: navy;
 }
 
 .banner {
@@ -27,9 +34,20 @@
     filter: drop-shadow(1px 1px 1px darkmagenta);
 }
 
-#pando {
+#lower-div {
+    padding: 3vw 3vw;
+    text-align: center;
+}
+
+#christmas {
     color: mediumpurple;
     font-size: large;
     font-family: cursive;
     font-weight: bold;
+}
+
+
+#bottom-list li {
+    list-style: none;
+    text-align: center;
 }
