@@ -46,8 +46,11 @@
     font-weight: bold;
 }
 
-
 #bottom-list li {
     list-style: none;
     text-align: center;
+}
+
+.globes {
+    display: inline;
 }
